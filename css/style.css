@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    width: 100%;
+    }
+/* .grid{
+    display: grid;
+    grid-template-columns: repeat(4 ,25%);F
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:"nav nav nav nav"
+    "main main main main"
+    "main  main  main  main"
+    "footer footer footer footer";
+} */
+.gridHeader{
+    display: grid;
+    grid-template-areas: "logo none none nav";
+}
+
+.gridFooter{
+    display: grid;
+    grid-template-areas:"navFooter none none redes" ;
+    background-color: #333;
+}
+/* .contenedor{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto auto;} */
+
+p{
+    margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background: #333;
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-top: 0%;
+
+}
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    color: rgb(255, 251, 252);
+    text-decoration: none; 
+    font-size: large;
+}
+.navegador{
+    grid-area: nav;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+    padding-right: 2.5rem;
+}
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegador ul li{
+    display: inline-block;
+    position: relative;
+    flex-direction: column;
+}
+.navegador ul li a{
+    display: block;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navegador ul li a:hover{
+    background: rgb(79, 192, 196);
+    border-radius: 5px;
+}
+/* main{
+    grid-area: main;
+    padding-top: 15rem;
+    
+
+} */
+/* MAIN MAIN MAIN MAIN IMAGENES index */
+/* .grid-container {
+    display: grid;
+    gap:10px;
+    grid-auto-rows: minmax(200px, 1fr);
+  
+
+    
+  } */
+
+.hijo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(42, 147, 165);
+    border-radius: 30px ;
+    transition: transform 0.3s ease-in-out;
+    border: solid 1px cornsilk;
+    
+    }
+
+
+.img1{
+   border: solid red;
+   border-radius: 50px;
+}
+
+    
+/* MAIN DE CONTACTO */
+          
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(42, 147, 165);
+    width: 300px;
+    margin-top: 1.5rem;
+}
+.foto:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+img{
+    max-width: 100%;
+}
+.boton {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    align-content: center;
+    border-radius: 00.5rem;
+    margin: 0.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+.boton:hover {
+    filter:opacity(1);
+    transform: scale(1.06);
+    background-color: aqua;
+}
+
+@media (max-width: 2500px) {
+    header a{ 
+        font-size: x;
+    }
+    .contiene{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+        margin: 2rem;
+          }
+
+}
+
+@media (max-width: 768px) {
+    header a{
+        font-size: small;
+    }
+    .contiene{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        margin: 2rem;
+          }
+}
+
+@media (max-width: 400px) {
+    header a{ font-size: x-small;}
+    .contiene{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+        margin: 1rem;
+          }
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    padding-top: 1.5rem;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* .nos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: px;
+    ; */
+/* } */
+
+.derechos{
+    color: white;
+    grid-area: navFooter;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.redes{
+    grid-area: redes;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+.imgRedes{ 
+    width: 50px;
+    height: 50px;
+}
+    
+.ubi{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2rem;
+
+}
+/* COMIENZO A CREAR FORMULARIO */
+/* primeras  cajas de datos */
+/* en section lo q coloco afecta a la caja contenedora */
+
+    /* datos del recuadro donde ingreso los informaciom (nombre, apellido) */
+.datos2{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(239, 241, 243);
+    padding: 5px;
+    border-radius: 7px;
+    border-color: rgb(232, 224, 240);
+    border:2px solid rgb(139, 222, 228) ;
+    
+    
+}
+/* la etiqueta de lo q hay q ingresar (nombre,aprellido,mail, codigo */
+.datos{
+    font-size: 20px;
+    text-align: center;
+    width: 0px;
+    margin-bottom: 0;
+  
+    
+}
+/* 2 cajas de opciones */
+/* con select puedo darle la ubicacion a las cajas talles y categoria , color y anch */
+.select{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(194, 208, 226);
+    color: rgb(0, 0, 5);
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 3px;
+    width: 100%;
+
+}
+/* le doy las propiedades a lo q esta dentro de la caja */
+/* cabio las propiedades de las opciones dentro de la caja de talles y categoria */
+.option{
+    color: rgb(112, 7, 81);
+    font-size: xx-small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2px;
+    
+} 
+/* caracteristicas del recuadro y su de su interior */
+.relleno{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+    border-radius: 5px;
+    width: 100%;
+}
+.text{
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 1;
+}
+.section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        background: rgb(111, 151, 163);
+        margin: auto auto auto auto;
+        padding: 3rem;
+        border: 10rem;
+        width: 60%;
+        border-radius: 25px;
+        }
+
+input{
+    margin-top: 0;
+    font-size: 19px;
+    padding: 5px;
+    margin-top: 10px;
+   border-radius: 5px;
+   border-color: #f3eeec;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: rgb(87, 87, 92);
+   
+}
+.form{
+     padding-top: 2rem;
+     padding-bottom: 3rem;
+     margin: 3rem;
+ }
+
+ 
