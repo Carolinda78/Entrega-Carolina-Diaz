@@ -1,6 +1,7 @@
 @import"./variables";
 @import"./extend";
-@import"./mixins";
+@import"./mixin";
+
 
 header{
     background: #333;
@@ -20,7 +21,8 @@ header a{
     text-decoration: none; 
     font-size: large;
 }
-@extend .navegador{
+
+    .navegador{
     grid-area: nav;
     display: inline-flex;
     flex-direction: column;
@@ -29,6 +31,7 @@ header a{
     align-items: flex-end;
     padding-right: 2.5rem;
 }
+
 .navegador ul{
     margin: 0;
     padding: 0;
