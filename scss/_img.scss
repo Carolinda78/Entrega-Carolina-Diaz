@@ -1,0 +1,27 @@
+.img1{
+    border: solid red;
+    border-radius: 50px;
+ }    
+ /* MAIN DE CONTACTO */
+           
+ .foto{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content:space-around;
+     align-items: center;
+     text-align: center;
+     background-color:$backcolorft;
+     width: 300px;
+     margin-top: 1.5rem;
+ }
+ .foto:hover {
+     filter: opacity(0.9);
+     transform: scale(1.04);
+ }
+ img{
+     max-width: 50%;
+ }
+ .carousel-inner-img{
+    max-height:50px;
+  }

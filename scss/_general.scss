@@ -1,0 +1,47 @@
+
+h1{
+    text-align: center;
+    color: blue;
+    padding-top: 1.5rem;
+    font-family: $typeimportant;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3{
+    font-family: $typeboton;
+}
+
+
+p{
+    margin: 1rem;
+    font-family: $type;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    width: 100%;
+    }
+
+    .hijo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(42, 147, 165);
+        border-radius: 30px ;
+        transition: transform 0.3s ease-in-out;
+        border: solid 1px cornsilk;
+        
+        }
+    
+.ubi{
+        text-align: center;
+        font-size: 50px;
+        font-family: $type;
+        margin-bottom: 2rem;
+    
+    }

@@ -1,0 +1,13 @@
+@import"./variables";
+@import"./mixin";
+@import"./extend";
+
+.boton {
+    @include boton;
+
+    .boton:hover {
+    filter:opacity(1);
+    transform: scale(1.06);
+    background-color: aqua;
+}
+}

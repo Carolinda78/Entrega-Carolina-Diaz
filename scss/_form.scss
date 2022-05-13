@@ -1,0 +1,81 @@
+.datos2{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(239, 241, 243);
+    padding: 5px;
+    border-radius: 7px;
+    border-color: rgb(232, 224, 240);
+    border:2px solid rgb(139, 222, 228) ;
+    
+    
+}
+.datos{
+    font-size: 20px;
+    text-align: center;
+    width: 0px;
+    margin-bottom: 0;
+  
+    
+}.select{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(194, 208, 226);
+    color: rgb(0, 0, 5);
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 3px;
+    width: 100%;
+
+}
+.option{
+    color: rgb(112, 7, 81);
+    font-size: xx-small;
+    font-family: $type;
+    padding: 2px;
+    
+} 
+.relleno{
+    font-size: 15px;
+    font-family: $type;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+    border-radius: 5px;
+    width: 100%;
+}
+.text{
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 1;
+}
+.section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        background: rgb(111, 151, 163);
+        margin: auto auto auto auto;
+        padding: 3rem;
+        border: 10rem;
+        width: 60%;
+        border-radius: 25px;
+        }
+
+input{
+    margin-top: 0;
+    font-size: 19px;
+    padding: 5px;
+    margin-top: 10px;
+   border-radius: 5px;
+   border-color: #f3eeec;
+   font-family: $type;
+   color: rgb(87, 87, 92);
+   
+}
+.form{
+     padding-top: 2rem;
+     padding-bottom: 3rem;
+     margin: 3rem;
+ }

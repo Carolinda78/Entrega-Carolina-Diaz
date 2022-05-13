@@ -1,0 +1,17 @@
+@import"./variables";
+
+
+.navegador1 {
+    grid-area: nav;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+    padding-right: 2.5rem;
+}
+
+.navegador2 {
+    @extend .navegador1; 
+    padding-right: 2rem;
+}

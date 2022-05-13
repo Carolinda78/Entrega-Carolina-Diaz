@@ -1,0 +1,23 @@
+
+.derechos{
+    color: white;
+    grid-area: navFooter;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.redes{
+    grid-area: redes;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+.imgRedes{ 
+    width: 50px;
+    height: 50px;
+}
+    

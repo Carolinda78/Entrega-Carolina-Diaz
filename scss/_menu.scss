@@ -1,0 +1,54 @@
+@import"./variables";
+@import"./extend";
+@import"./mixins";
+
+header{
+    background: #333;
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-top: 0%;
+
+}
+.logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    color: rgb(255, 251, 252);
+    text-decoration: none; 
+    font-size: large;
+}
+@extend .navegador{
+    grid-area: nav;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+    padding-right: 2.5rem;
+}
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegador ul li{
+    display: inline-block;
+    position: relative;
+    flex-direction: column;
+}
+.navegador ul li a{
+    display: block;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navegador ul li a:hover{
+    background: $colornav;
+    border-radius: 5px;
+}
