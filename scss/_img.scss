@@ -1,27 +1,35 @@
 .img1{
-    border: solid red;
-    border-radius: 50px;
+max-width: 100%;
+max-height: fit-content;
+border-radius: 2rem;
+align-content: center;
+align-items: center;
  }    
  /* MAIN DE CONTACTO */
            
  .foto{
-     display: flex;
-     flex-wrap: wrap;
      flex-direction: column;
      justify-content:space-around;
-     align-items: center;
+     align-content: center;
      text-align: center;
-     background-color:$backcolorft;
-     width: 300px;
+     align-items: center;
+     background-color:rgb(164, 205, 221);
+     max-width: 100%;
      margin-top: 1.5rem;
+     border-radius: 2rem;
+     max-height: max-content;
  }
  .foto:hover {
      filter: opacity(0.9);
      transform: scale(1.04);
  }
- img{
-     max-width: 50%;
- }
- .carousel-inner-img{
-    max-height:50px;
-  }
+ .edit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 2rem;
+}

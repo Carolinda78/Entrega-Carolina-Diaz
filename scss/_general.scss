@@ -18,6 +18,10 @@ p{
     font-family: $type;
 }
 
+.a{
+    margin: 1rem;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -45,3 +49,14 @@ body {
         margin-bottom: 2rem;
     
     }
+
+.contiene{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        margin: 2rem;
+    }
+
+#hamburguesa {
+    display: none;
+}

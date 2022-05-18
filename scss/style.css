@@ -1,6 +1,4 @@
 .navegador1, .navegador2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
   grid-area: nav;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -46,8 +44,6 @@
 }
 
 .navegador1, .navegador2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
   grid-area: nav;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -72,8 +68,6 @@
 
 .derechos {
   color: white;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
   grid-area: navFooter;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,8 +88,6 @@
 }
 
 .redes {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
   grid-area: redes;
   padding: 1.5rem;
   display: -webkit-box;
@@ -337,8 +329,6 @@ header a {
 }
 
 .navegador {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
   grid-area: nav;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -396,7 +386,6 @@ header a {
   .contiene {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
@@ -411,7 +400,6 @@ header a {
   .contiene {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
@@ -426,7 +414,6 @@ header a {
   .contiene {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     -webkit-column-gap: 2rem;
             column-gap: 2rem;

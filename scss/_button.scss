@@ -4,10 +4,9 @@
 
 .boton {
     @include boton;
-
-    .boton:hover {
-    filter:opacity(1);
-    transform: scale(1.06);
-    background-color: aqua;
+        .boton:hover {
+        filter:opacity(1);
+        transform: scale(1.06);
+       color: rgb(60, 161, 47);
 }
 }
