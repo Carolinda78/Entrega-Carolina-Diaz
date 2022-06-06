@@ -7,6 +7,8 @@
         grid-template-columns: repeat(4, 1fr);
         column-gap: 1.5rem;
         }
+        .imgRedes {
+            width: 5%;}
 }
 
 @media (max-width: 768px) {
@@ -33,12 +35,16 @@
 
     .boton {
         font-size: small;
-        width: 50%;
+        // width: 50%;
         }
 
     .navegador{ 
         display: none;}
+
+        .imgRedes {
+            width: 7%;
         }
+    }
 
 @media (max-width: 350px) {
     header a{ 
@@ -54,6 +60,9 @@
 
     .boton {
         font-size: x-small;
-        width: 50%;
+        // width: 50%;
         }
+
+        .imgRedes {
+            width: 12%;}
 }

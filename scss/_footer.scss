@@ -1,9 +1,7 @@
-@import"./variables";
-@import"./mixin";
-@import"./extend";
+@import "variables";
 
 .derechos{
-    color: white;
+    color: rgb(252, 249, 249);
     grid-area: navFooter;
     display: flex;
     flex-direction: row ;
@@ -12,15 +10,22 @@
     justify-content: space-between;
     padding: 1.5rem;
 }
-.redes{
+.redes {
     grid-area: redes;
-    padding: 1.5rem;
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-around;    
     align-items: center;
+    max-width: 200%;
 }
-.imgRedes{ 
-    width: 10%;
-    height: 10%;
+.imgRedes { 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+//    align-content: center;
 }
-    
+
+footer{
+        margin-top:50px;
+        width:100%;
+        background-color: aquamarine;
+    }

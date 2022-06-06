@@ -1,12 +1,12 @@
-@import"./variables";
-@import"./mixin";
-@import"./extend";
+@import "variables";
+@import "mixin";
+@import"extend";
 
 .boton {
     @include boton;
         .boton:hover {
         filter:opacity(1);
         transform: scale(1.06);
-       color: rgb(60, 161, 47);
+       color: rgb(192, 95, 30);
 }
 }

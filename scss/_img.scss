@@ -33,3 +33,12 @@ align-items: center;
   margin-right: auto; 
   margin-bottom: 2rem;
 }
+
+.promociones{ 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+

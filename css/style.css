@@ -7,7 +7,7 @@
   border-radius: 00.5rem;
   margin: 0.5rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: medium;
+  font-size: small;
   width: 50%;
   text-align: center;
   display: inline-block; }
@@ -15,12 +15,14 @@
 .boton:hover, .boton-aceptar:hover {
   filter: opacity(1);
   transform: scale(1.04);
-  color: white;
+  color: #2e1f1f;
   background-color: #000155; }
 
 .boton-aceptar {
-  background-color: #0f119b;
-  border-radius: 5px; }
+  background-color: #2d0f9b;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px; }
 
 .boton, .boton-aceptar {
   background-color: green;
@@ -36,7 +38,7 @@
   .boton .boton:hover, .boton-aceptar .boton:hover, .boton .boton-aceptar:hover, .boton-aceptar .boton-aceptar:hover {
     filter: opacity(1);
     transform: scale(1.06);
-    color: #3ca12f; }
+    color: #c05f1e; }
 
 .boton, .boton-aceptar {
   background-color: #0f119b;
@@ -47,7 +49,7 @@
   border-radius: 00.5rem;
   margin: 0.5rem;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: medium;
+  font-size: small;
   width: 50%;
   text-align: center;
   display: inline-block; }
@@ -55,39 +57,17 @@
 .boton:hover, .boton-aceptar:hover {
   filter: opacity(1);
   transform: scale(1.04);
-  color: white;
+  color: #2e1f1f;
   background-color: #000155; }
 
 .boton-aceptar {
-  background-color: #0f119b;
-  border-radius: 5px; }
-
-.boton, .boton-aceptar {
-  background-color: #0f119b;
-  color: white;
-  text-decoration: none;
-  padding: 1rem;
-  text-transform: uppercase;
-  border-radius: 00.5rem;
-  margin: 0.5rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: medium;
-  width: 50%;
-  text-align: center;
-  display: inline-block; }
-
-.boton:hover, .boton-aceptar:hover {
-  filter: opacity(1);
-  transform: scale(1.04);
-  color: white;
-  background-color: #000155; }
-
-.boton-aceptar {
-  background-color: #0f119b;
-  border-radius: 5px; }
+  background-color: #2d0f9b;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px; }
 
 .derechos {
-  color: white;
+  color: #fcf9f9;
   grid-area: navFooter;
   display: flex;
   flex-direction: row;
@@ -98,38 +78,20 @@
 
 .redes {
   grid-area: redes;
-  padding: 1.5rem;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center; }
+  justify-content: space-around;
+  align-items: center;
+  max-width: 200%; }
 
 .imgRedes {
-  width: 50px;
-  height: 50px; }
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
-.boton, .boton-aceptar {
-  background-color: #0f119b;
-  color: white;
-  text-decoration: none;
-  padding: 1rem;
-  text-transform: uppercase;
-  border-radius: 00.5rem;
-  margin: 0.5rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: medium;
-  width: 50%;
-  text-align: center;
-  display: inline-block; }
-
-.boton:hover, .boton-aceptar:hover {
-  filter: opacity(1);
-  transform: scale(1.04);
-  color: white;
-  background-color: #000155; }
-
-.boton-aceptar {
-  background-color: #0f119b;
-  border-radius: 5px; }
+footer {
+  margin-top: 50px;
+  width: 100%;
+  background-color: aquamarine; }
 
 .datos2 {
   font-size: 16px;
@@ -139,8 +101,8 @@
   background-color: #eff1f3;
   padding: 5px;
   border-radius: 7px;
-  border-color: #e8e0f0;
-  border: 2px solid #8bdee4; }
+  border-color: #6c5cc4;
+  border: 2px solid #6a11cf; }
 
 .datos {
   font-size: 20px;
@@ -156,11 +118,11 @@
   margin-top: 20px;
   font-size: 20px;
   border-radius: 7px;
-  padding: 3px;
+  border-color: #6c5cc4;
   width: 100%; }
 
 .option {
-  color: #700751;
+  color: #b868a0;
   font-size: xx-small;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 2px; }
@@ -184,9 +146,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   background: #a4cddd;
-  margin: auto auto auto auto;
   padding: 3rem;
-  border: 10rem;
   width: 60%;
   border-radius: 25px; }
 
@@ -202,12 +162,11 @@ input {
 
 .form {
   padding-top: 2rem;
-  padding-bottom: 3rem;
-  margin: 3rem; }
+  padding-bottom: 3rem; }
 
 h1 {
   text-align: center;
-  color: blue;
+  color: #0a06f7;
   padding-top: 1.5rem;
   font-family: "Euphoria Script", cursive;
   font-size: 3rem;
@@ -261,7 +220,8 @@ body {
 .gridFooter {
   display: grid;
   grid-template-areas: "navFooter none none redes";
-  background-color: #333; }
+  background-color: #333;
+  margin-bottom: 0rem; }
 
 .img1 {
   max-width: 100%;
@@ -297,32 +257,14 @@ body {
   margin-right: auto;
   margin-bottom: 2rem; }
 
-.boton, .boton-aceptar {
-  background-color: #0f119b;
-  color: white;
-  text-decoration: none;
-  padding: 1rem;
-  text-transform: uppercase;
-  border-radius: 00.5rem;
-  margin: 0.5rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: medium;
-  width: 50%;
-  text-align: center;
-  display: inline-block; }
-
-.boton:hover, .boton-aceptar:hover {
-  filter: opacity(1);
-  transform: scale(1.04);
-  color: white;
-  background-color: #000155; }
-
-.boton-aceptar {
-  background-color: #0f119b;
-  border-radius: 5px; }
+.promociones {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  flex-wrap: wrap; }
 
 header {
-  background: #333;
+  background-color: #333;
   position: relative;
   left: 0;
   width: 100%;
@@ -374,7 +316,9 @@ header a {
   .contiene {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 1.5rem; } }
+    column-gap: 1.5rem; }
+  .imgRedes {
+    width: 5%; } }
 
 @media (max-width: 768px) {
   header a {
@@ -393,8 +337,12 @@ header a {
     align-items: center;
     justify-content: flex-end;
     padding-top: 20%; }
+  .boton, .boton-aceptar {
+    font-size: small; }
   .navegador {
-    display: none; } }
+    display: none; }
+  .imgRedes {
+    width: 7%; } }
 
 @media (max-width: 350px) {
   header a {
@@ -403,4 +351,8 @@ header a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 2rem;
-    margin: 1rem; } }
+    margin: 1rem; }
+  .boton, .boton-aceptar {
+    font-size: x-small; }
+  .imgRedes {
+    width: 12%; } }
