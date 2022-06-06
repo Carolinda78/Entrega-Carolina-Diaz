@@ -1,11 +1,11 @@
-.gridHeader{
+.gridHeader {
     display: grid;
     grid-template-areas: "logo none none nav";
 }
 
-.gridFooter{
+.gridFooter {
     display: grid;
-    grid-template-areas:"navFooter none none redes" ;
+    grid-template-areas: "navFooter none none redes";
     background-color: #333;
     margin-bottom: 0rem;
 }

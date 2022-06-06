@@ -1,4 +1,4 @@
-h1{
+h1 {
     text-align: center;
     color: rgb(10, 6, 247);
     padding-top: 1.5rem;
@@ -7,55 +7,55 @@ h1{
     font-weight: bold;
 }
 
-h3{
+h3 {
     font-family: $typeboton;
 }
 
 
-p{
+p {
     margin: 1rem;
     font-family: $type;
 }
 
-.a{
+.a {
     margin: 1rem;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
-    }
+}
 
 body {
     width: 100%;
-    
-    }
 
-    .hijo{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(42, 147, 165);
-        border-radius: 30px ;
-        transition: transform 0.3s ease-in-out;
-        border: solid 1px cornsilk;
-        
-        }
-    
-.ubi{
-        text-align: center;
-        font-size: 50px;
-        font-family: $type;
-        margin-bottom: 2rem;
-    
-    }
+}
 
-.contiene{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 2rem;
-        margin: 2rem;
-    }
+.hijo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(42, 147, 165);
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+    border: solid 1px cornsilk;
+
+}
+
+.ubi {
+    text-align: center;
+    font-size: 50px;
+    font-family: $type;
+    margin-bottom: 2rem;
+
+}
+
+.contiene {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    margin: 2rem;
+}
 
 #hamburguesa {
     display: none;

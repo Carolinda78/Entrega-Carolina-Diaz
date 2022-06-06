@@ -1,6 +1,4 @@
-
-
-.datos2{
+.datos2 {
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -9,19 +7,21 @@
     padding: 5px;
     border-radius: 7px;
     border-color: rgb(108, 92, 196);
-    border:2px solid rgb(106, 17, 207) ;
-    
-    
+    border: 2px solid rgb(106, 17, 207);
+
+
 }
-.datos{
+
+.datos {
     font-size: 20px;
     text-align: center;
     width: 0px;
     margin-bottom: 0;
-  
-    
+
+
 }
-.select{
+
+.select {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: rgb(194, 208, 226);
     color: rgb(0, 0, 5);
@@ -34,14 +34,16 @@
     width: 100%;
 
 }
-.option{
+
+.option {
     color: rgb(112, 7, 81);
     font-size: xx-small;
     font-family: $type;
     padding: 2px;
-    
-} 
-.relleno{
+
+}
+
+.relleno {
     font-size: 15px;
     font-family: $type;
     text-align: center;
@@ -50,37 +52,40 @@
     border-radius: 5px;
     width: 100%;
 }
-.text{
+
+.text {
     font-size: 15px;
     letter-spacing: 0.3px;
     line-height: 1;
 }
-.section{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background: #aae4fb;
-        background: $backgroundcolor;
-         margin: auto auto auto auto;
-        padding: 3rem;
-        border: 10rem;
-        width: 60%;
-        border-radius: 25px;
-        }
 
-input{
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #aae4fb;
+    background: $backgroundcolor;
+    margin: auto auto auto auto;
+    padding: 3rem;
+    border: 10rem;
+    width: 60%;
+    border-radius: 25px;
+}
+
+input {
     margin-top: 0;
     font-size: 19px;
     padding: 5px;
     margin-top: 10px;
-   border-radius: 5px;
-   border-color: #f3eeec;
-   font-family: $type;
-   color: rgb(68, 68, 139);
-   
+    border-radius: 5px;
+    border-color: #f3eeec;
+    font-family: $type;
+    color: rgb(68, 68, 139);
+
 }
-.form{
-     padding-top: 2rem;
-     padding-bottom: 3rem;
+
+.form {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     //  margin: 3rem;
- }
+}

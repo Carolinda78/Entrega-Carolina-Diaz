@@ -1,44 +1,45 @@
-.img1{
-max-width: 100%;
-max-height: fit-content;
-border-radius: 2rem;
-align-content: center;
-align-items: center;
- }    
- /* MAIN DE CONTACTO */
-           
- .foto{
-     flex-direction: column;
-     justify-content:space-around;
-     align-content: center;
-     text-align: center;
-     align-items: center;
-     background-color:rgb(164, 205, 221);
-     max-width: 100%;
-     margin-top: 1.5rem;
-     border-radius: 2rem;
-     max-height: max-content;
- }
- .foto:hover {
-     filter: opacity(0.9);
-     transform: scale(1.04);
- }
- .edit{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto; 
-  margin-bottom: 2rem;
+.img1 {
+    max-width: 100%;
+    max-height: fit-content;
+    border-radius: 2rem;
+    align-content: center;
+    align-items: center;
 }
 
-.promociones{ 
+/* MAIN DE CONTACTO */
+
+.foto {
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(164, 205, 221);
+    max-width: 100%;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    max-height: max-content;
+}
+
+.foto:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.promociones {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
-
-

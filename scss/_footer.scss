@@ -1,31 +1,33 @@
 @import "variables";
 
-.derechos{
+.derechos {
     color: rgb(252, 249, 249);
     grid-area: navFooter;
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     align-items: center;
     align-content: space-around;
     justify-content: space-between;
     padding: 1.5rem;
     font-size: medium;
 }
+
 .redes {
     grid-area: redes;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
     align-items: center;
     max-width: 100%;
 }
-.imgRedes { 
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
+
+.imgRedes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-footer{
-        margin-top:50px;
-        width:100%;
-     
-    }
+footer {
+    margin-top: 50px;
+    width: 100%;
+
+}
