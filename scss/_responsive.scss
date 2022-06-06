@@ -1,33 +1,46 @@
 @media (max-width: 2500px) {
-    header a{ 
+    header a {
         font-size: x;
     }
-    .contiene{
+
+    .contiene {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         column-gap: 1.5rem;
-        }
-        .imgRedes {
-            width: 5%;}
+    }
+
+    .imgRedes {
+        max-width: 3rem;
+    }
+
+    .mapa {
+        display: none;
+    }
+    .mapaP { 
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
-    header a{
+    header a {
         font-size: small;
     }
-    .contiene{
+
+    .contiene {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1.5rem;
         margin: 2rem;
-          }
-    #hamburguesa{
+    }
+
+    #hamburguesa {
         grid-area: nav;
         display: block;
     }
-    .container{
+
+    .container {
         background-color: #333;
-        display: bl;
+        display: block;
         align-items: center;
         justify-content: flex-end;
         padding-top: 20%;
@@ -35,23 +48,39 @@
 
     .boton {
         font-size: small;
-        // width: 50%;
-        }
-
-    .navegador{ 
-        display: none;}
-
-        .imgRedes {
-            width: 7%;
-        }
+        // width: 40%;
     }
 
+    .navegador {
+        display: none;
+    }
+
+    .ImgRedes {
+       max-width: 1rem;
+    }
+
+    .mapaG {
+        display: none;
+    }
+    .mapa { 
+        display: contents;
+    }
+    .mapaP { 
+        display: none;
+    }
+    .derechos{
+        font-size: small;
+    }
+}
+
+
+
 @media (max-width: 350px) {
-    header a{ 
+    header a {
         font-size: x-small
     }
 
-    .contiene{
+    .contiene {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         column-gap: 2rem;
@@ -61,8 +90,24 @@
     .boton {
         font-size: small;
         // width: 50%;
-        }
+    }
 
-        .imgRedes {
-            width: 12%;}
+    .imgRedes {
+        max-width: 1.2rem;
+    }
+
+    .mapaG {
+        display: none;
+    }
+    .mapa { 
+        display: none;
+    }
+
+    .mapaP { 
+        display: contents;
+    }
+
+    .derechos{
+        font-size: x-small;
+    }
 }

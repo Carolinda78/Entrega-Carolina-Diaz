@@ -80,14 +80,15 @@
   align-items: center;
   align-content: space-around;
   justify-content: space-between;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+  font-size: medium; }
 
 .redes {
   grid-area: redes;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 200%; }
+  max-width: 100%; }
 
 .imgRedes {
   display: flex;
@@ -96,8 +97,7 @@
 
 footer {
   margin-top: 50px;
-  width: 100%;
-  background-color: aquamarine; }
+  width: 100%; }
 
 .datos2 {
   font-size: 16px;
@@ -327,7 +327,11 @@ header a {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 1.5rem; }
   .imgRedes {
-    width: 5%; } }
+    max-width: 3rem; }
+  .mapa {
+    display: none; }
+  .mapaP {
+    display: none; } }
 
 @media (max-width: 768px) {
   header a {
@@ -342,7 +346,7 @@ header a {
     display: block; }
   .container {
     background-color: #333;
-    display: bl;
+    display: block;
     align-items: center;
     justify-content: flex-end;
     padding-top: 20%; }
@@ -350,8 +354,16 @@ header a {
     font-size: small; }
   .navegador {
     display: none; }
-  .imgRedes {
-    width: 7%; } }
+  .ImgRedes {
+    max-width: 1rem; }
+  .mapaG {
+    display: none; }
+  .mapa {
+    display: contents; }
+  .mapaP {
+    display: none; }
+  .derechos {
+    font-size: small; } }
 
 @media (max-width: 350px) {
   header a {
@@ -364,4 +376,12 @@ header a {
   .boton, .boton-aceptar {
     font-size: small; }
   .imgRedes {
-    width: 12%; } }
+    max-width: 1.2rem; }
+  .mapaG {
+    display: none; }
+  .mapa {
+    display: none; }
+  .mapaP {
+    display: contents; }
+  .derechos {
+    font-size: x-small; } }
