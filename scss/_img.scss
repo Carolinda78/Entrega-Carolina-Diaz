@@ -40,6 +40,7 @@
 .promociones {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
